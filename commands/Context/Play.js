@@ -5,6 +5,14 @@ const GSetup = new Database("./settings/models/setup.json", { databaseInObject: 
 
 module.exports = { 
     name: ["Context | Play"],
+    description: "come one let's hear some music!!",
+    permissions: "0x0000000000000800",
+    options: [{
+      name: 'query',
+      description: 'Type the name of the music you want to play.',
+      type: ApplicationCommandOptionType.String,
+      required: true
+    }],
     type: ApplicationCommandType.Message,
     category: "Context",
     run: async (client, interaction) => {
