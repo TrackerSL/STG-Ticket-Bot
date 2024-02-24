@@ -9,7 +9,7 @@
 # BOT INFORMATION
 # You must not leave them as blank!
 # ===========================================================================
-Token: "BOT_TOKEN" # If you don't know how to get it, Look at our docs: https://docs.plexdevelopment.net
+Token: "(process.env.TOKEN)" # If you don't know how to get it, Look at our docs: https://docs.plexdevelopment.net
 LicenseKey: "LICENSE_KEY" # Copy and paste Directleaks
 BotName: "Plex Tickets"
 GuildID: "GUILD_ID" # This is your server's ID, Right click on your server icon and copy ID
